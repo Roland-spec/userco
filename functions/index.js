@@ -1,6 +1,7 @@
 const {onRequest} = require("firebase-functions/v2/https");
 
-exports.helloWorld = onRequest((request, response) => {
-    console.log("Hello logs!");
-    response.send("Hello from Firebase!");
+exports.randomNumber = onRequest((request, response) => {
+    const randomNumber = Math.random();
+    console.log("Random number:", randomNumber);
+    response.send(randomNumber.toString());
 });

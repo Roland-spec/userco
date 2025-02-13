@@ -1,1 +1,7 @@
-{}
+{
+  "projects": {
+    "cloud1": "cloud1-4fa90"
+  },
+  "targets": {},
+  "etags": {}
+}
