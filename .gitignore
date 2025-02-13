@@ -1,0 +1,13 @@
+# zyLabs environment
+.envrc
+.direnv/
+.vscode/
+
+
+# Dart/Flutter folders
+build/
+.dart_tool/
+
+# Stuff that normally shouldn't sync
+.env
+node_modules/
